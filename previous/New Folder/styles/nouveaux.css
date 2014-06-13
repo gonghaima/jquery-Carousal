@@ -1,0 +1,156 @@
+/* PAGE SETUP - NON IE / IE 9 */
+
+/*---------------------------------*/
+/* PAGE STYLES */
+
+html, body
+{
+    height: 100%;
+    margin: 0;
+    font-family: "Century Gothic","Avant Garde",Arial;
+    background-image: url(../images/nvbg.png);
+    background-repeat: repeat-x;
+    background-color: White;
+}
+#mainPage
+{
+    padding: 0px 25px;
+    padding-bottom: 40px;
+    margin: auto;
+    width: 800px;
+}
+
+/*--------------------------------*/
+/* HEAD STYLES */
+
+.imglink img
+{
+    border: none;    
+}
+#topHeader
+{
+    padding-top: 90px;
+    font-weight: normal;
+}
+#logoImage
+{
+}
+hgroup#mainheading
+{
+    float: left;
+}
+h1.h1red
+{
+    color: #D20000;
+    font-weight: normal;
+    display: inline;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+h1.h1black
+{
+    color: #000000;
+    font-weight: normal;
+    display: inline;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+#topHeader ul
+{
+    float: right;
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#topHeader ul li
+{
+    font-size: 12pt;
+    float: left;
+    text-align: right;
+    display: block;
+    list-style: none;
+    width: 150px;
+    padding-top: 15px;
+}
+#topHeader a
+{
+    color: black;
+    text-decoration: none;
+    -webkit-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+}
+#topHeader a:hover
+{
+    color: #D20000;
+    text-decoration: none;
+}
+#clear-top
+{
+    height: 10px;
+}
+hr
+{
+    height: 1px;
+    margin: 0px;
+    margin-top: -5px;
+    color: #666666;
+    background-color: #666666;
+    border: none;
+}
+.clear-fix
+{
+    clear: both;
+    height: 1px;
+    padding: 0;
+    margin: 0;
+}
+
+/*---------------------------------------------------*/
+/* FOOTER STYLES */
+#color-footer
+{
+    border-top: solid 1px #CCCCCC;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #EEEEEE;
+}
+#footer
+{
+    padding: 3px 0px;
+    width: 600px;
+    margin: auto;
+    background-color: #EEEEEE;
+}
+#logo-float
+{
+    float: left;
+    width: 180px;
+}
+#footer-logo
+{
+    height: 20px;
+    width: 180px;
+}
+#footer-links
+{
+    text-align: right;
+    font-size: 8pt;
+    padding-bottom: 3px;
+    line-height: 20px;
+}
+.footer-link
+{
+    color: Black;
+    text-decoration: none;
+    padding-right: 10px;
+}
+.footer-link:hover
+{
+    text-decoration: underline;
+}
+#padmybottom
+{
+    height: 50px;
+}

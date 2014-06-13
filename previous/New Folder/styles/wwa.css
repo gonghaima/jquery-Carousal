@@ -1,0 +1,24 @@
+﻿body
+{
+}
+p a
+{
+    color: #AA0000;
+    text-decoration: none;
+}
+p a:hover
+{
+    color: #AA0000;
+    text-decoration: underline;
+}
+#leftColumn
+{
+    float: left;
+    width: 300px;
+    margin-right: 40px;
+}
+#rightColumn
+{
+    float: left;
+    width: 452px;
+}

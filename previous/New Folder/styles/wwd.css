@@ -1,0 +1,278 @@
+﻿
+	#pageContent
+	{
+		padding-top: 35px;
+		width: 330px;
+		margin: auto;
+	}
+	.button
+	{
+	    -webkit-border-radius: 40px;
+	    -moz-border-radius: 40px;
+	    -khtml-border-radius: 40px;
+		border-radius: 40px;
+		background-color: Black;
+		width: 80px;
+		height: 80px;
+		text-align: center;
+		line-height: 80px;
+		display: inline-block;
+		color: White;
+		text-decoration: none;
+		-webkit-transition: all 0.15s linear;
+		-moz-transition: all 0.15s linear;
+		transition: all 0.15s linear;
+	}
+	.button-selected
+	{
+	    -webkit-border-radius: 40px;
+	    -moz-border-radius: 40px;
+	    -khtml-border-radius: 40px;
+		border-radius: 40px;
+		background-color: #D20000;
+		width: 80px;
+		height: 80px;
+		text-align: center;
+		line-height: 80px;
+		display: inline-block;
+		color: White;
+		text-decoration: none;
+		-webkit-transform: scale(1.1) rotate(0deg);
+		-moz-transform: scale(1.1) rotate(0deg);
+		transform: scale(1.1) rotate(0deg);
+	}
+	.button:hover
+	{
+		background-color: #D20000;
+		-webkit-transform: scale(1.1) rotate(0deg);
+		-moz-transform: scale(1.1) rotate(0deg);
+		transform: scale(1.1) rotate(0deg);
+	}
+	#inter-pad
+	{
+		height: 30px;
+		width: 100%;
+	}
+	#slides
+	{
+		height: 338px;
+		width: 600px;
+		margin: auto;
+		border: solid 3px #EFEFEF;
+	}
+	#previous
+	{
+		position: absolute;
+		top: 149px;
+		left: -20px;
+		border-radius: 20px;
+		display: block;
+		width: 40px;
+		height: 40px;
+		cursor: pointer;
+		-webkit-transition: all 0.25s linear;
+		-moz-transition: all 0.25s linear;
+		transition: all 0.25s linear;
+		z-index: 999;
+		background-color: #000000;
+	}
+	#previous:hover
+	{
+		-webkit-transform: scale(1.2);
+		-moz-transform: scale(1.2);
+		transform: scale(1.2);
+		background-color: #D20000;
+	}
+	#next
+	{
+		position: absolute;
+		top: 149px;
+		left: 580px;
+	border-radius: 20px;
+		display: block;
+		width: 40px;
+		height: 40px;
+		cursor: pointer;
+		-webkit-transition: all 0.25s linear;
+		-moz-transition: all 0.25s linear;
+		transition: all 0.25s linear;
+		z-index: 999;
+		background-color: #000000;
+	}
+	#next:hover
+	{
+		-webkit-transform: scale(1.2);
+		-moz-transform: scale(1.2);
+		transform: scale(1.2);
+		background-color: #D20000;
+	}
+	
+		-webkit-transform: scale(1.2);
+		-moz-transform: scale(1.2);
+		transform: scale(1.2);
+		background-color: #D20000;
+	}
+	
+	#thumbPrev
+	{
+		border-radius: 20px;
+		display: block;
+		width: 40px;
+		height: 40px;
+		cursor: pointer;
+		-webkit-transition: all 0.25s linear;
+		-moz-transition: all 0.25s linear;
+		transition: all 0.25s linear;
+		z-index: 999;
+		background-color: #000000;
+	}
+	#thumbPrev:hover
+	{
+		-webkit-transform: scale(1.2);
+		-moz-transform: scale(1.2);
+		transform: scale(1.2);
+		background-color: #D20000;
+	}
+	#thumbNext
+	{
+	    border-radius: 20px;
+		display: block;
+		width: 40px;
+		height: 40px;
+		cursor: pointer;
+		-webkit-transition: all 0.25s linear;
+		-moz-transition: all 0.25s linear;
+		transition: all 0.25s linear;
+		z-index: 999;
+		background-color: #000000;
+	}
+	#thumbNext:hover
+	{
+		-webkit-transform: scale(1.2);
+		-moz-transform: scale(1.2);
+		transform: scale(1.2);
+		background-color: #D20000;
+	}
+	#thumbs
+	{
+		width: 600px;
+		margin: auto;
+		min-height: 63px;
+		margin-top: 16px;
+	}
+	.nvx-thumbslide
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	.nvx-thumb
+	{	
+		width: 99px;
+		height: 55px;
+		float: left;
+		padding: 4px;
+		background-color: #EFEFEF;
+		cursor: pointer;
+		-webkit-transition: all 0.25s linear;
+		-webkit-transform: scale(0.9);
+		-moz-transition: all 0.25s linear;
+		-moz-transform: scale(0.9);
+		transition: all 0.25s linear;
+		transform: scale(0.9);
+	}
+	.nvx-thumb-slc
+	{	
+		width: 99px;
+		height: 55px;
+		float: left;
+		padding: 4px;
+		background-color: #D20000;
+		cursor: pointer;
+		-webkit-transition: all 0.25s linear;
+		-webkit-transform: scale(1.0);
+		-moz-transition: all 0.25s linear;
+		-moz-transform: scale(1.0);
+		transition: all 0.25s linear;
+		transform: scale(1.0);
+	}
+	.nvx-thumb:hover
+	{
+		background-color: #D20000;		
+	}
+	#text
+	{
+	    width: 480px;
+	    margin: auto;
+	    margin-top: 30px;
+	    line-height: 20px;
+	    font-size: 10pt;
+	}
+	#playerContainer
+	{
+	    padding: 0px 15px;
+	    width: 600px;
+	    margin: auto;
+	    background-color: Black;
+	}
+	#playerControl
+	{
+	    height: 28px;
+	    width: 600px;
+	    padding: 5px 0px 10px 0px;
+	    position: relative;
+	    background-color: Black;
+	}
+	#playBtn
+	{
+	    margin-right: 5px;
+	    display: block;
+	    float: right;
+	    width: 28px;
+	    height: 28px;
+	    background-image: url('../images/play_black.png');
+	    background-position: 0px 0px;
+    }
+	#playBtn:hover
+	{
+	    background-position: 0px 28px;
+	}
+	#pauseBtn
+	{
+	    margin-right: 5px;
+	    display: block;
+	    float: right;
+	    width: 28px;
+	    height: 28px;
+	    background-image: url('../images/pause_black.png');
+	    background-position: 0px 0px;
+    }
+	#pauseBtn:hover
+	{
+	    background-position: 0px 28px;
+	}
+	#muteBtn
+	{
+	    text-decoration: none;
+	    line-height: 28px;
+	    text-align: center;
+	    color: White;
+	    font-family: Arial;
+	    font-size: 9pt;	
+	    display: block;
+	    float: right;
+	    width: 84px;
+	    height: 28px;
+	    background-image: url('../images/mute_black.png');
+    }
+	#muteBtn:hover
+	{
+	    background-position: 0px 28px;
+	}
+	#videoText
+	{
+	    color: White;
+	    line-height: 28px;
+	}

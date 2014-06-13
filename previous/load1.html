@@ -1,0 +1,28 @@
+<html> 
+  <head> 
+    <title>An Ajax example</title> 
+
+    <script src="http://code.jquery.com/jquery-latest.js">
+    </script>
+    <script>
+	$(document).ready(function(){
+		$("div").load("message.txt");
+	});
+    </script>
+  </head> 
+
+  <body>
+
+    <H1>An Ajax example</H1>
+
+    <form>
+      <input type = "button" value = "Fetch the message" 
+        onclick = "getData('message.txt', 'targetDiv')"> 
+    </form>
+
+    <div id="targetDiv">
+      <p>The fetched message will appear here.</p> 
+    </div> 
+
+  </body> 
+</html>

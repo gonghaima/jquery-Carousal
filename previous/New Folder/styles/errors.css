@@ -1,0 +1,45 @@
+﻿body
+{
+background-image: url(../images/nvbg.png);
+background-repeat: repeat-x;
+font-family: "Century Gothic","Avant Garde",Arial
+}
+div#box
+{
+width: 1000px;
+margin: auto;
+    min-width: 712px;
+}
+div#left
+{
+    padding-top: 166px;
+    margin-left: 30px;
+}
+div#right
+{
+    float: right;
+    margin-right: 30px;
+}
+div#clear
+{
+    clear: both;
+    height: 1px;
+}
+div#message
+{
+margin-left: 30px;
+font-family: "Century Gothic",Arial;
+font-size: 9pt;
+}
+hr
+{
+    height: 2px;
+    margin: 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    color: #999999;
+    background-color: #999999;
+    border: none;
+}

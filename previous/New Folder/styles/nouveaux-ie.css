@@ -1,0 +1,120 @@
+/* EXTRA STYLES / REPLACEMENT STYLES FOR IE*/
+.imglink img
+{
+    border: none;
+}
+html, body
+{
+    height: 100%;
+    margin: 0;
+    background-color: White;
+    background-image: url(../images/nvbg.png);
+    background-repeat: repeat-x;
+}
+#mainPage
+{
+    padding: 0px 25px;
+    margin: auto;
+    width: 860px;
+}
+h1.h1red
+{
+    color: #D20000;
+    font-weight: normal;
+    display: inline;
+}
+h1.h1black
+{
+    color: #000000;
+    font-weight: normal;
+    display: inline;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+#topHeader
+{
+    padding-top: 90px;
+    font-weight: normal;
+}
+#topHeader ul
+{
+    font-size: 12pt;
+    float: right;
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#topHeader ul li
+{
+    float: left;
+    text-align: right;
+    display: block;
+    list-style: none;
+    width: 150px;
+    padding-top: 15px;
+}
+#topHeader a
+{
+    color: black;
+    text-decoration: none;
+}
+#topHeader a:hover
+{
+    color: #D20000;
+    text-decoration: none;
+}
+hr
+{
+    height: 1px;
+    margin: 0px;
+    margin-top: -5px;
+    color: #666666;
+    background-color: #666666;
+    border: none;
+}
+.button
+{
+    background-color: Transparent;
+    background-image: url(../images/NButton.png);
+    background-position: 0px 0px;
+}
+.button-selected
+{
+    background-color: Transparent;
+    background-image: url(../images/NButton.png);
+    background-position: 0px 80px;
+}
+.button:hover
+{
+    background-color: Transparent;
+    background-position: 0px 80px;
+}
+#previous
+{
+    width: 42px;
+    height: 41px;
+    background-color: Transparent;
+    background-image: url(../images/glry-btn.png);
+    background-position: 0px 0px;
+    z-index: 999;
+}
+#previous:hover
+{
+    background-color: Transparent;
+    background-position: 0px 40px;
+}
+#next
+{
+    width: 42px;
+    height: 41px;
+    background-color: Transparent;
+    background-image: url(../images/glry-btn.png);
+    background-position: 0px 0px;
+    z-index: 999;
+}
+#next:hover
+{
+    background-color: Transparent;
+    background-position: 0px 40px;
+}

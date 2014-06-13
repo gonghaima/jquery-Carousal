@@ -1,0 +1,20 @@
+﻿body
+{
+}
+#pageContent
+{
+margin: auto;
+    margin-top: 40px;
+    width: 650px;
+}
+#map
+{
+float: right;
+
+}
+#contact-info
+{
+height: 350px;
+font-size: 9pt;
+line-height: 20px;
+}
