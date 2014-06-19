@@ -3,11 +3,12 @@ jqueryTest
 
 jQuery carousel
 
-This project (119.47.113.13) is a small test of jQuery carousel.
+http://119.47.113.13
 
-It is using a demo library with php behind.
+This project is a photo carousel using a jQuery library.
 
-I did not wrote the library, but interested to know how it works.
+There is a little bit php behind.
+
 
 Thanks,
 
