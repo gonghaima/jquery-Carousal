@@ -1,8 +1,6 @@
 jqueryTest
 ==========
 
-jQuery carousel
-
 http://119.47.113.13
 
 This project is a photo carousel using a jQuery library.
